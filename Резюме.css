@@ -10,7 +10,7 @@ body {
 .info-text p {
     font-weight: bold ;
     font-style: italic;
-    color:#898f9b;
+    color:#353434;
     margin: 0px;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .hobby{
-   background-color:#E6E6FA;
+   background-color:#d6d6fa;
 }
 
 .hobby h2{
@@ -87,21 +87,21 @@ body {
 }
 /* Ссылки */
 a {
-    color: #898f9b;
+    color: #727b7c;
     transition: all .2s;
 }
 
 a:hover{
-    color:#6A5ACD;
+    color:#523ce2;
     font-size: 2rem;
 }
 
 a:active{
     color:#DB7093;
 }
-a:visited{
-    color:#DDA0DD;
-}
+/* a:visited{
+    color:#c500c5;
+} */
 /* Таблицы */
 .table{
     width: 100%;
@@ -232,3 +232,6 @@ display: block; }
     margin-bottom: 10px;
 }
 }
+
+body{
+    background-image: url(Фон.jpg);} 
